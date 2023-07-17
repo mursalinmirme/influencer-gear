@@ -82,6 +82,7 @@
   #menu-icon {
     display: block;
     font-size: 1.5rem;
+    margin-left: 10px;
   }
   #close-mark {
     display: block;
@@ -101,7 +102,12 @@
     height: 100vh;
     justify-content: start;
     padding-top: 50px;
-    left: 150%;
+    /* display: none !important; */
+    left: 4000px;
+  }
+  .menu-active{
+    /* display: block !important; */
+    left: 0;
   }
   .nav-lists .nav-item {
     padding: 15px 0;
@@ -112,6 +118,9 @@
 
   .nav-icon-search {
     display: none;
+  }
+  .nav .nav-list-container .header-icons-list .nav-icons{
+    margin-right: 16px;
   }
 }
 
