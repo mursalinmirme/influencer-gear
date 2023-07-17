@@ -70,6 +70,11 @@
     text-align: center;
     display: block;
     margin: 0 auto;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+  .preebook-btn i{
+    margin-left: 10px;
   }
   .banner-image{
     width: 85%;
@@ -81,9 +86,33 @@
     width: 100%;
     transform: scale(0.8);
   }
-  
+  .sponsor-container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    box-shadow: none;
+    margin-top: 30px;
   }
-  
+  .sponsor-container img{
+    width: 65px;
+    margin: 12px 15px;
+    
+  }
+
+  .sponsor-container img:nth-child(1){
+    width: 50px;
+  }
+
+  .sponsor-container img:nth-child(6){
+    width: 75px;
+  }
+
+
+  }  /* end mobile @media query */
+
+
+
   /* responsive for tablet version codes start */
   @media screen and (min-width: 576px) and (max-width: 970px) {
     .container {
