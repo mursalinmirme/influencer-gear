@@ -2,4 +2,39 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
+:root{
+    --primary-color: #3A3A3A;
+    --secondary-color: #18191F;
+    
+}
+/* shares css codes */
+.primary-btn{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    
+}
+/* header section styles code */
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
