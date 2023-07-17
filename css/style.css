@@ -14,8 +14,11 @@
   background-color: #e02c6d;
   color: #ffffff;
   font-size: 1rem;
-  font-weight: 700;
-  padding: 10px 15px;
+  font-weight: 500;
+  padding: 12px 25px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
 }
 .container {
   width: 1240px;
@@ -70,6 +73,45 @@
   color: var(--hover-color);
 }
 
+/* banner section styles code start */
+.banner{
+  /* background-color: beige; */
+}
+.banner-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content{
+  width: 60%;
+}
+.banner-content .banner-title{
+  font-size: 3.25rem;
+  color: var(--primary-color);
+}
+.banner-content .banner-desc{
+  font-size: 1rem;
+  width: 70%;
+  line-height: 27px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 10px 0px 30px;
+}
+.banner-image{
+  width: 40%;
+  background-repeat: no-repeat;
+  background-image: url('../images/Circle\ design.svg');
+}
+.banner-image img{
+  width: 100%;
+}
+
+
+
+
+
+
+
 /* responsive for mobile version codes start */
 @media screen and (max-width: 576px) {
   .container {
@@ -122,6 +164,36 @@
   .nav .nav-list-container .header-icons-list .nav-icons {
     margin-right: 16px;
   }
+.banner-container{
+  flex-direction: column-reverse;
+}
+.banner-content{
+  width: 100%;
+}
+.banner-content .banner-title{
+  font-size: 2rem;
+  text-align: center;
+}
+.banner-content .banner-desc{
+  width: 85%;
+  text-align: center;
+  margin: 10px auto 20px;
+  font-size: 0.85rem;
+}
+.preebook-btn{
+  text-align: center;
+  display: block;
+}
+.banner-image{
+  width: 100%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+
+}
+.banner-image img{
+  width: 80%;
+}
+
 }
 
 /* responsive for tablet version codes start */
