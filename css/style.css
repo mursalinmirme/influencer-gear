@@ -23,9 +23,17 @@
     
 }
 /* header section styles code */
-.
-
-
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav > ul{
+    display: flex;
+}
+.nav > ul .nav-item{
+    list-style: none;
+    margin-right: 20px;
+}
 
 
 
